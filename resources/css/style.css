@@ -1,0 +1,439 @@
+/******************************************* DEFAULT SETTINGS  *************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-size: 10px;
+    text-rendering: optimizeLegibility;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/***************************  ******************/
+
+.gap-20 {
+    height: 2rem;
+    background-color: #073f5d;
+}
+
+
+/*************************************  */
+
+.row-1149 {
+    max-width: 1149px;
+}
+
+
+/****************  *************/
+
+/* .social-icon-container {
+    padding: 10px;
+} */
+
+.social-section {
+    border-bottom: #f0ede8 solid 1px;
+}
+
+.social-icon-list {
+    float: right;
+    padding: 1rem;
+}
+
+.icon-item {
+    display: inline-block;
+}
+
+.social-icon {
+    font-size: 1.7rem;
+    color: #54595f;
+}
+
+.icon-item a {
+    padding: 1rem;
+}
+
+
+/*****  */
+
+
+.nav-logo {
+    max-width: 228px;
+}
+
+.main-nav {
+    float: right;
+}
+
+.main-nav li {
+    display: inline-block;
+    padding: 2rem 0;
+
+}
+
+.main-nav li a {
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    color: #7a7e83;
+    padding: 2rem 1.5rem;
+}
+
+nav {
+    border-bottom: #f0ede8 solid 1px;
+}
+
+.header-image-file {
+    height: 100%;
+}
+
+.header-image {
+    background-image: url(img/header-img.jpg);
+    background-size: cover;
+    height: 41rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*********************  */
+
+.planning-section {
+    padding: 10rem;
+    background-color: #f0ede8;
+}
+
+.planning__box--2 {
+    text-align: center;
+    padding: 2.5rem;
+    margin-left: 0;
+}
+
+.planning-heading {
+    font-family: "Playfair Display", serif;
+    font-size: 5.9rem;
+    font-weight: 500;
+    line-height: 5.9rem;
+    color: #073f5d;
+    margin: 0.8rem 0 1.6rem;
+}
+
+.planning-sub-heading {
+    font-family: "Playfair Display", serif;
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 4.2rem;
+    color: #073f5d;
+    margin: 0.8rem 0 1.6rem;
+}
+
+.planning-para {
+    font-family: "Roboto Condensed", serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 3.2rem;
+    color: #9a9a9d;
+}
+
+.planning-image {
+    max-width: 100%;
+    margin-top: 9rem;
+}
+
+.planning__box--1 {
+    padding: 2.5rem;
+}
+
+.planning-btn-container {
+    margin-top: 6rem;
+}
+
+/* BUTTON ************************************* */
+
+.btn {
+    padding: 1.5rem 4.5rem;
+    background-color: #fff;
+}
+
+.btn-planning {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #7a7e83;
+    transition: all ease .2s;
+}
+
+.btn-planning:hover,
+.btn-planning:active {
+    color: #fff;
+    background-color: #073f5d;
+}
+
+/******************  */
+
+.row-1140 {
+    max-width: 1140px;
+}
+
+
+
+
+.connect-section {
+    padding: 10rem 0 10rem;
+}
+
+.connect-box-1 {
+    margin: 0;
+    text-align: right;
+}
+
+.connect-box-2 {
+    text-align: center;
+    margin: 0;
+    margin-top: 15rem;
+    padding: 5rem;
+    border-style: solid;
+    border-width: 2.5rem 2.5rem 2.5rem 0px;
+    border-color: #c3dbe7;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.connect-para {
+    font-family: "Playfair Display", serif;
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 4.8rem;
+    color: #073f5d;
+    margin-bottom: 1.5rem;
+}
+
+.connect-para-name {
+    font-family: Oswald, serif;
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 6.4rem;
+    text-transform: uppercase;
+    color: #f1c36d;
+}
+
+.line {
+    height: 3px;
+    width: 2.5rem;
+    content: " ";
+    background-color: #f1c36d;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-connect {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1;
+    background-color: #f0ede8;
+    color: #7a7e83;
+    padding: 1.5rem 5.5rem;
+}
+
+.btn-connect-container {
+    margin-top: 7rem;
+}
+
+
+
+/* 
+
+.slider-image {
+    height: 520px;
+}
+
+
+
+.wrapper {
+    position: relative;
+}
+
+.wrapper:before,
+.wrapper:after {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    content: "";
+    display: block;
+    width: 20px;
+    height: 100%;
+}
+
+.wrapper:before {
+    left: 0;
+    background: linear-gradient(90deg, #222, transparent);
+}
+
+.wrapper:after {
+    right: 0;
+    background: linear-gradient(-90deg, #222, transparent);
+}
+
+.items {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0;
+    cursor: pointer;
+}
+
+.items.active {
+    cursor: grab;
+}
+
+.item {
+    display: inline-block;
+    margin-left: 20px;
+    user-select: none;
+    background: tomato;
+    width: 50%;
+    height: 130px;
+    color: #222;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 130px;
+}
+
+.item:last-child {
+    margin-right: 20px;
+} */
+
+
+
+/************ CONNECT WIDE SECTION  ************/
+
+.connect-wide-section {
+    padding: 20rem 0;
+    background-color: #a6a6a6;
+}
+
+.row-1120 {
+    max-width: 1120px;
+}
+
+.connect-text {
+    text-align: center;
+    padding: 1rem;
+}
+
+.connect-top-para {
+    font-family: "Playfair Display", serif;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    letter-spacing: 0;
+    font-size: 3.2rem;
+}
+
+.connect-wide-para-name {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 2.24rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.line-connect-wide {
+    width: 2.5rem;
+    background-color: #fff;
+}
+
+.container-btn-connect-wide {
+    margin-top: 8rem;
+}
+
+.btn-connect-wide {
+    padding: 1.5rem 5.5rem;
+    color: #7a7e83;
+    background-color: #f0ede8;
+    font-family: "Playfair Display", serif!important;
+    letter-spacing: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+.contact-section {
+    padding: 10rem 0;
+    background-color: #f0ede8;
+}
+
+.container-contact-heading {
+    text-align: center;
+}
+
+.contact-heading {
+    color: #073f5d;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 5.9rem;
+    font-weight: 400;
+    line-height: 1;
+}
+
+
+
+
+
+
+footer {
+    padding: 10rem 0;
+    background-color: #073f5d;
+}
+
+.container-footer {
+    text-align: center;
+}
+
+.footer-image-div {
+    width: 224px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.footer-logo-image {
+    max-width: 100%;
+}
