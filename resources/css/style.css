@@ -266,7 +266,14 @@ nav {
     line-height: 1;
     background-color: #f0ede8;
     color: #7a7e83;
-    padding: 1.5rem 5.5rem;
+    padding: 1.2rem 5.5rem 1.5rem 5.5rem;
+    transition: all ease .2s;
+    
+}
+
+.btn-connect:hover {
+    background-color: #073f5d;
+    color: #fff;
 }
 
 .btn-connect-container {
@@ -385,13 +392,19 @@ nav {
 }
 
 .btn-connect-wide {
-    padding: 1.5rem 5.5rem;
+    padding: 1.2rem 5.5rem 1.5rem 5.5rem;
     color: #7a7e83;
     background-color: #f0ede8;
     font-family: "Playfair Display", serif !important;
     letter-spacing: 0;
     font-size: 1.5rem;
     font-weight: 500;
+    transition: all ease .2s;
+}
+
+.btn-connect-wide:hover {
+    background-color: #073f5d;
+    color: #fff;
 }
 
 
