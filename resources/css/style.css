@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+*:focus {
+    outline: none;
+}
+
 html {
     font-family: sans-serif;
     box-sizing: border-box;
@@ -95,7 +99,6 @@ a {
 .main-nav li {
     display: inline-block;
     padding: 2rem 0;
-
 }
 
 .main-nav li a {
@@ -385,7 +388,7 @@ nav {
     padding: 1.5rem 5.5rem;
     color: #7a7e83;
     background-color: #f0ede8;
-    font-family: "Playfair Display", serif!important;
+    font-family: "Playfair Display", serif !important;
     letter-spacing: 0;
     font-size: 1.5rem;
     font-weight: 500;
@@ -404,6 +407,7 @@ nav {
 
 .container-contact-heading {
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .contact-heading {
@@ -436,4 +440,90 @@ footer {
 
 .footer-logo-image {
     max-width: 100%;
+}
+
+.container-footer-link {
+    padding: 1rem;
+
+}
+
+.footer-link-list li {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.footer-link-list li a {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1.3rem 0;
+    margin: 0 1.2rem;
+    font-family: "Oswald", Sans-serif;
+    letter-spacing: 2px;
+}
+
+
+.container-social-link {
+    padding: 1.5rem;
+}
+
+.footer-social-list li {
+    display: inline-block;
+}
+
+.footer-social-list li a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 1.2rem;
+    padding: 0.5rem 0;
+}
+
+.container-footer-copyright {
+    margin: 1rem 0;
+}
+
+.copyright-para {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+
+
+
+/* contact section  */
+
+.label-text {
+    display: block;
+    font-weight: 400;
+    font-family: 'Playfair Display';
+    margin: 15px 0 10px 0;
+    color: #717073;
+    font-size: 1.6rem;
+}
+
+.contact-input {
+    border: 1px solid #eee !important;
+    font-family: 'Playfair Display';
+    color: #717073;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #fff !important;
+    /* margin-top: 15px; */
+    width: 100%;
+}
+
+.submit-btn-area {
+    margin-top: 2rem;
+}
+
+.btn-submit {
+    border: none;
+    text-shadow: none !important;
+    font-family: 'Playfair Display';
+    color: #7a7e83;
+    font-size: 15px;
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
 }
