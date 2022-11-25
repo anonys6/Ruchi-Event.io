@@ -278,28 +278,42 @@ nav {
 
 
 .section-motto {
-    display: none;
-}
-
-.container-motto-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/motto-bg.jpg);
+    background-image: -webkit-linear-gradient(rgba(7, 7, 7, .6), rgba(7, 7, 7, .6)), url(img/motto-bg.jpg);
+    background-image: linear-gradient(rgba(7, 7, 7, .6), rgba(7, 7, 7, .6)), url(img/motto-bg.jpg);
     background-attachment: fixed;
-    height: 705px;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    background-size: contain;
+    padding: 25rem 0;
     text-align: center;
 }
 
 .container-motto-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 1rem;
 }
 
+.motto-main-text {
+    font-family: "Playfair Display", serif;
+    margin-bottom: 3rem;
+    color: #fff;
+    letter-spacing: 0;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 3.2rem;
+}
 
+.motto-para-name {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+}
 
-
+.line-motto {
+    background-color: #fff !important;
+}
 
 
 
