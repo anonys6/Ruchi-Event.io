@@ -142,9 +142,6 @@ nav {
     margin-bottom: 8rem;
 }
 
-.planning-difference-box {
-    
-}
 
 .container-planning-difference-image {
     width: 520px;
@@ -159,7 +156,8 @@ nav {
     margin-top: 20rem;
 }
 
-.planning-difference-heading {
+.planning-difference-heading,
+.looking-heading {
     text-align: center;
     color: #073f5d;
     font-size: 5.9rem;
@@ -169,10 +167,337 @@ nav {
     margin: 0.8rem 0 1.6rem;
 }
 
-.planning-difference-para {
+.planning-difference-para,
+.looking-para {
     color: #9a9a9d;
     font-size: 1.6rem;
     font-family: "Roboto Condensed", serif;
     font-weight: 300;
     line-height: 2;
+    text-align: left;
+}
+
+
+/* LOOKING SECTION  */
+
+.section-looking {
+    margin-bottom: 12.5rem;
+}
+
+.container-looking-text {
+    padding-right: 5rem;
+    text-align: center;
+}
+
+.looking-para {
+    margin-bottom: 2rem;
+}
+
+.container-looking-image {
+    width: 520px;
+    margin-left: 5rem;
+}
+
+.looking-image {
+    max-width: 100%;
+    text-align: right;
+}
+
+.container-btn-looking {
+    margin-top: 5rem;
+}
+
+.btn {
+    padding: 1.5rem 4.5rem;
+    background-color: #fff;
+    line-height: 1;
+}
+
+.btn-looking {
+    background-color: #f0ede8;
+    font-size: 1.5rem;
+    font-family: "Playfair Display", serif;
+    color: #7a7e83;
+    transition: all ease .2s;
+}
+
+.btn-looking:hover {
+    color: #fff;
+    background-color: #073f5d;
+}
+
+
+
+
+
+
+
+
+.section-focus {
+    padding: 15rem 0;
+    background-color: #f0ede8;
+}
+
+.focus-box,
+.focus-box-wide {
+    padding: 1rem;
+}
+
+.focus-box-wide {
+    margin-top: 3rem;
+}
+
+.focus-main-text {
+    line-height: 1.5em;
+    color: #073f5d;
+    font-family: 'Playfair Display', serif;
+    font-size: 3.2rem;
+}
+
+.focus-para-text {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    color: #9a9a9d;
+    font-size: 2.5rem;
+}
+
+
+
+
+
+/* .section-motto { */
+/* background-image: url(img/motto-bg.jpg); */
+/* height: 705px; */
+/* background-attachment: fixed; */
+/* width: 100vw; */
+/* height: 705px; */
+/* background-position: center; */
+/* background-size: cover; */
+/* background-size: contain; */
+/* } */
+
+
+.section-motto {
+    display: none;
+}
+
+.container-motto-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/motto-bg.jpg);
+    background-attachment: fixed;
+    height: 705px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+}
+
+.container-motto-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/* HOW WE WORK */
+
+.section-wework {
+    margin-bottom: 7.5rem;
+}
+
+.container-wework {
+    padding: 10rem 0 10rem;
+}
+
+.wework-box-img {
+    margin: 0;
+    text-align: right;
+}
+
+.wework-box-text {
+    text-align: center;
+    margin: 0;
+    margin-top: 15rem;
+    padding: 5rem;
+    border-style: solid;
+    border-width: 2.5rem 2.5rem 2.5rem 0px;
+    border-color: #c3dbe7;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.wework-para {
+    font-family: "Playfair Display", serif;
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 4.8rem;
+    color: #073f5d;
+    margin-bottom: 1.5rem;
+}
+
+.wework-para-name {
+    font-family: Oswald, serif;
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 6.4rem;
+    text-transform: uppercase;
+    color: #f1c36d;
+    /* margin-bottom: 40px; */
+}
+
+.line {
+    height: 3px;
+    width: 2.5rem;
+    content: " ";
+    background-color: #f1c36d;
+    display: block;
+    margin: 0 auto;
+}
+
+.line-wework {
+    margin-bottom: 15rem;
+}
+
+.container-wework-bottom {
+    padding: 1rem;
+
+}
+
+.wework-heading {
+    text-align: center;
+    color: #073f5d;
+    font-size: 5.9rem;
+    font-family: "Playfair Display", serif;
+    line-height: 1;
+    font-weight: 500;
+    margin: 0.8rem 0 1.6rem;
+}
+
+.wework-subheading {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    line-height: 2em;
+    margin-bottom: 0px;
+    font-size: 1.6rem;
+    color: #9a9a9d;
+}
+
+.wework-image {
+    max-width: 100%;
+}
+
+
+
+
+/* TESTIMONIALS SECTION  */
+
+.section-testimonial {
+    background-color: #f0ede8;
+    padding: 10rem;
+}
+
+.container-testimonial-image {
+    width: 456px;
+}
+
+.testimonial-image {
+    max-width: 100%;
+}
+
+.container-testimonial-text {
+    margin-top: 15%;
+}
+
+.testimonial-para {
+    color: #7a7e83;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-size: 1.7rem;
+    font-style: normal;
+    line-height: 2em;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.testimonial-name {
+    color: #073f5d;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-style: normal;
+}
+
+
+
+
+
+/* FOOTER  */
+
+footer {
+    padding: 10rem 0;
+    background-color: #073f5d;
+}
+
+.container-footer {
+    text-align: center;
+}
+
+.footer-image-div {
+    width: 224px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.footer-logo-image {
+    max-width: 100%;
+}
+
+.container-footer-link {
+    padding: 1rem;
+
+}
+
+.footer-link-list li {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.footer-link-list li a {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1.3rem 0;
+    margin: 0 1.2rem;
+    font-family: "Oswald", Sans-serif;
+    letter-spacing: 2px;
+}
+
+
+.container-social-link {
+    padding: 1.5rem;
+}
+
+.footer-social-list li {
+    display: inline-block;
+}
+
+.footer-social-list li a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 1.2rem;
+    padding: 0.5rem 0;
+}
+
+.container-footer-copyright {
+    margin: 1rem 0;
+}
+
+.copyright-para {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    letter-spacing: 2px;
 }
