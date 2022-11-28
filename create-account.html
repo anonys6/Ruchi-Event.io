@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Planning & Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9be3d822c5.js" crossorigin="anonymous"></script>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:wght@400;500&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="vendors/css/fluid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/create-style.css">
+
+</head>
+
+<body>
+
+    <!-------------------------------------------------------------------------------------------------------------->
+    <!----------------------------------------------- TOP STATIC NAV ----------------------------------------------->
+    <!-------------------------------------------------------------------------------------------------------------->
+
+    <div class="gap gap-20"></div>
+
+    <section class="section social-section">
+        <div class="container social-container">
+            <div class="row row-1149">
+                <div class="container social-icon-container">
+                    <ul class="social-icon-list">
+                        <li class="icon-item"><a href="#"><i class="fa-brands fa-facebook-f social-icon"></i></a></li>
+                        <li class="icon-item"><a href="#"><i class="fa-brands fa-instagram social-icon"></i></a></li>
+                        <li class="icon-item"><a href="#"><i class="fa-brands fa-linkedin-in social-icon"></i></a></li>
+                        <li class="icon-item"><a href="#"><i class="fa-brands fa-whatsapp social-icon"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------------------------------------------------------------------------------------------------------------->
+    <!--------------------------------------------------- HEADER --------------------------------------------------->
+    <!-------------------------------------------------------------------------------------------------------------->
+
+    <header id="home">
+
+        <div class="nav-height">
+            <nav>
+                <div class="row row-1149">
+                    <div class="container nav-container">
+                        <a href="index.html"><img src="resources/img/dt-logo.png" alt="DT Logo" class="nav-logo"></a>
+
+                        <ul class="main-nav">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="planning.html" class="nav-perma-border">Planning & Design</a></li>
+                            <li><a href="login.html">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+
+        <div class="container container-planning-heading">
+            <div class="row row-1140">
+                <div class="planning-heading-box">
+                    <h1 class="planning-heading-text">Create an Account</h1>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <!-------------------------------------------------------------------------------------------------------------->
+    <!------------------------------------------------ CREATE FORM ------------------------------------------------>
+    <!-------------------------------------------------------------------------------------------------------------->
+
+    <section class="section section-create-form">
+        <div class="row row-900">
+            <div class="container container-create-form">
+                <form method="get" name="ruchi-google-sheet" class="contact-form" action="login.html">
+
+                    <div class="left-margin col span_1_of_2">
+                        <div class="container form-field-container">
+                            <div class="label-container">
+                                <label for="first">
+                                    <p class="label-text">First Name *</p>
+                                </label>
+                            </div>
+                            <div class="input-container">
+                                <input type="text" name="first" value id="first" required class="contact-input">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col span_1_of_2">
+                        <div class="container form-field-container">
+                            <div class="label-container">
+                                <label for="last">
+                                    <p class="label-text">Last Name *</p>
+                                </label>
+                            </div>
+                            <div class="input-container">
+                                <input type="text" name="last" value id="last" required class="contact-input">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container form-field-container">
+                        <div class="label-container">
+                            <label for="email">
+                                <p class="label-text">Email Address *</p>
+                            </label>
+                        </div>
+                        <div class="input-container">
+                            <input type="email" name="email" value id="email" required class="contact-input">
+                        </div>
+                    </div>
+
+                    <div class="container form-field-container">
+                        <div class="label-container">
+                            <label for="email2">
+                                <p class="label-text">Confirm Email Address *</p>
+                            </label>
+                        </div>
+                        <div class="input-container">
+                            <input type="email" name="email2" value id="email2" required class="contact-input">
+                        </div>
+                    </div>
+
+                    <div class="left-margin col span_1_of_2">
+                        <div class="container form-field-container">
+                            <div class="label-container">
+                                <label for="password">
+                                    <p class="label-text">Password *</p>
+                                </label>
+                            </div>
+                            <div class="input-container">
+                                <input type="password" name="password" value id="password" required class="contact-input">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col span_1_of_2">
+                        <div class="container form-field-container">
+                            <div class="label-container">
+                                <label for="password2">
+                                    <p class="label-text">Confirm password *</p>
+                                </label>
+                            </div>
+                            <div class="input-container">
+                                <input type="password" name="password2" value id="password2" required class="contact-input">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container submit-btn-area">
+                        <button type="submit" name="submit" class="btn btn-submit">
+                            <span class="btn-submit-text">Sign up</span>
+                            <!-- <i class="fa-solid fa-check btn-submit-icon"></i> -->
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <!-------------------------------------------------------------------------------------------------------------->
+    <!--------------------------------------------------- FOOTER --------------------------------------------------->
+    <!-------------------------------------------------------------------------------------------------------------->
+
+    <footer>
+        <div class="container container-footer">
+            <div class="row row-1140">
+                <div class="container container-footer-content">
+                    <div class="footer-image-div">
+                        <img src="resources/img/dt-logo.png" alt="Logo" class="footer-logo-image">
+                    </div>
+
+                    <div class="container container-footer-link">
+                        <ul class="footer-link-list">
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="planning.html">PLANNING & DESIGN</a></li>
+                            <li><a href="#">EVENT GALLERIES</a></li>
+                            <li><a href="#">MEDIA</a></li>
+                            <li><a href="#">APPEARANCES</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="container container-social-link">
+                        <ul class="footer-social-list">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="container container-footer-copyright">
+                        <p class="copyright-para">COPYRIGHT 2022 RUCHI EVENT, INC. ALL RIGHTS RESERVED</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

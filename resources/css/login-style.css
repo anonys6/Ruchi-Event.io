@@ -250,6 +250,29 @@ nav {
     margin-top: 2rem;
 }
 
+.container-forgot {
+    text-align: right;
+    display: inline-block;
+    padding-left: 4rem;
+}
+
+.forgot-password,
+.create-account {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #717073;
+    font-family: "Playfair Display", serif;
+    letter-spacing: .5px;
+    font-weight: 300;
+}
+
+.container-create-account {
+    display: inline;
+    float: right;
+    padding-top: 1.4rem;
+    padding-right: 1rem;
+}
+
 
 
 /************************************************************************************************************************/
